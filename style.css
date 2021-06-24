@@ -1,0 +1,113 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-image: url(black\ 3.jpg);
+}
+img{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+.container{
+    position: absolute;
+    left: 6rem;
+    top: 10rem;
+}
+div .name{
+    position: absolute;
+    left: 30rem;
+    top: -7rem;
+    width: 19rem;
+    color: white;
+    font-size: 1.5rem;
+}
+nav a{
+    color: white;
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+nav a:hover{
+    color: cornflowerblue;
+    text-shadow: 3px 3px 4px white;
+}
+
+/*styling the links boxes*/
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    align-items: center;
+}
+.links .box{
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+}
+.links a{
+    text-decoration: none;
+    font-size: 3.5rem;
+    color: black;
+    font-weight: bolder;
+    margin: 5px;
+}
+.links p{
+    font-size: 3.5rem;
+    font-family: 'Tangerine', serif;
+    color: black;
+    font-weight: bolder;
+    margin: 5px;
+}
+.links i:hover{
+    text-shadow: 4px 5px 6px #aaa;
+}
+#clock{
+    color: white;
+    position: absolute;
+    right: 2px;
+    top: 5px;
+    font-size: small;
+}
+/*Product page styling */
+div .head{
+    color: whitesmoke;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+div .products{
+    display: flex;
+}
+.products .lights{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20rem;
+    margin: 20px 40px;
+}
+.products .lights img{
+    width: 8rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+.products .lights .use{
+    color: rgb(8, 139, 139);
+    margin: 15px 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.products .lights p{
+    color: white;
+    width: 8rem;
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: lowercase;
+    font-family: 'Ubuntu', sans-serif;
+}
