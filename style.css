@@ -2,7 +2,7 @@ body{
     width: 100%;
     height: 100%;
     margin: 0px;
-    background-image: url(black\ 3.jpg);
+    background-image: url(image/black\ 3.jpg);
 }
 img{
     width: 100%;
@@ -11,7 +11,6 @@ img{
 }
 .container{
     position: absolute;
-    left: 6rem;
     top: 10rem;
 }
 div .name{
@@ -37,8 +36,8 @@ nav a:hover{
 .links{
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
-    align-items: center;
+    margin: 20px;
+    justify-content: center;
 }
 .links .box{
     display: flex;
@@ -81,8 +80,9 @@ div .head{
     font-weight: bolder;
 }
 
-div .products{
+.products{
     display: flex;
+    justify-content: center;
 }
 .products .lights{
     display: flex;
