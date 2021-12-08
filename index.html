@@ -1,86 +1,68 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>ArihantStar</title>
+        <link rel="stylesheet" href="style.css">
+        <!--Links to add font styling-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 
-<head>
-    <title>ArihantStar Products</title>
-    <link rel="stylesheet" href="style.css">
-
-    <!--Links to add font styling-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
-
-<body>
-    <!--To add clock at this position -->
-    <div id="clock"></div>
-    <div class="container" style="left: 6rem;">
-        <div class="name">
-            <img src="image/Logo (2).png">
-        </div>
-        <nav class="nav">
-            <div>
-                <a href="index.html">LINKS</a>
-                <a href="product.html" style="color: cornflowerblue;">PRODUCTS</a>
-            </div>
-            <hr>
-        </nav>
-        <div class="head">
-            <p>BEST SELLING PRODUCTS</p>
+        <!--Links to add font icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+    </head>
+    
+    <body>
+        <div class="image">
+            <img src="black 3.jpg">
         </div>
 
-        <div class="products">
-            <div class="lights">
-                <div class="use">
-                    INDOOR LIGHTS
-                </div>
-                <img src="image/cob track.jpg">
-                <p>COB LIGHT</p>
-                <img src="image/slim sq panel.png" class="panel">
-                <img src="image/backlit panel.png" class="panel">
-                <img src="image/cieling panel.jpg" class="panel">
-                <p>PANEL LIGHT</p>
-                <img src="image/circle down light.png">
-                <p>DOWN LIGHT</p>
-                <img src="image/spot.jpeg">
-                <p>SPOT LIGHT</p>
-                <img src="image/foot.jpg">
-                <p>FOOT/STAIR LIGHT</p>
+        <!--To add clock at this position -->
+        <div id="clock"></div>
+        <div class="container">
+            <div class="name">
+                <img src="Logo (2).png">
             </div>
-            >
-            <div class="lights">
-                <div class="use">
-                    OUTDOOR LIGHTS
+            <nav class="nav">
+                <div>
+                    <a href="#" style="color: cornflowerblue;">LINKS</a>
+                    <a href="product.html">PRODUCTS</a>
                 </div>
-                <img src="image/flood.jpg">
-                <p>FLOOD LIGHT</p>
-                <img src="image/street light.jpg">
-                <p>STREET LIGHT</p>
-            </div>
-            <div class="lights">
-                <div class="use">
-                    DECORATIVE LIGHTS
+                <hr>
+            </nav>
+            <div class="links">
+                <div class="box">
+                    <a href="https://arihantstarled.com/" target="_blank"><i class="fa fa-star-o" aria-hidden="true"></i></a>
+                    <p>Website</p>
                 </div>
-                <img src="image/strip.jpg">
-                <p>STRIP LIGHT</p>
-                <img src="image/hanging profile.jpg">
-                <p>HANGING LIGHT</p>
-                <img src="image/profiles.jpg">
-                <p>PROFILE LIGHT</p>
-                <img src="image/spot light.jpg">
-                <p>LINEAR SPOT LIGHT</p>
+                <div class="box">
+                    <a href="https://www.facebook.com/ARIHAANT/?ref=pages_you_manage" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <p>Facebook</p>
+                </div>
+                <div class="box">
+                    <a href="https://www.instagram.com/arihantstarlights/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <p>Instagram</p>
+                </div>
+                <div class="box">
+                    <a href="http://www.arihantled.com/" target="_blank"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></a> 
+                    <p>TradeIndia</p>
+                </div>
+                <div class="box">
+                    <a href="https://www.amazon.in/s?k=arihantstar&ref=nb_sb_noss_2" target="_blank"><i class="fa fa-amazon" aria-hidden="true"></i></a>
+                    <p>Amazon</p>
+                </div>
+                <div class="box">
+                    <a href="https://www.youtube.com/channel/UCfrxU4NQlo8K-7PM5Q4KBiQ/videos" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    <p>Youtube</p>
+                </div>
             </div>
         </div>
-    </div>
+    </body>
+    <script>
+        setInterval(updatedate, 1000);
 
-</body>
-<script>
-    setInterval(updatedate, 1000);
-
-    function updatedate() {
-        clock.innerHTML = new Date();
-    }
-    let dt = new Date();
-    console.log(dt);
-</script>
-
+        function updatedate(){
+            clock.innerHTML = new Date();
+        }
+        // let dt = new Date();
+        // console.log(dt);
+    </script>
 </html>
