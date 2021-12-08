@@ -57,8 +57,8 @@ nav a:hover{
     margin: 5px;
 }
 .links p{
-    font-size: 3.5rem;
-    font-family: 'Tangerine', serif;
+    font-size: 2.2rem;
+    font-family: 'Ubuntu', sans-serif;
     color: black;
     font-weight: bolder;
     margin: 5px;
@@ -82,11 +82,12 @@ div .head{
 
 .products{
     display: flex;
-    justify-content: center;
+    text-align: center;
 }
 .products .lights{
     display: flex;
     flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
     width: 20rem;
     margin: 20px 40px;
@@ -97,7 +98,7 @@ div .head{
     border-radius: 50%;
 }
 .products .lights .use{
-    color: rgb(8, 139, 139);
+    color: cornflowerblue;
     margin: 15px 10px;
     font-size: x-large;
     font-weight: bolder;
