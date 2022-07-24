@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ArihantStar</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Links to add font styling-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+    <!--Links to add font icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+
+
+    <!--To add clock at this position -->
+    <div id="clock"></div>
+
+
+    <div class="container">
+        <div class="name">
+            <img src="Logo (2).png">
+        </div>
+        
+        <nav class="nav">
+            <div>
+                <a href="#" style="color: cornflowerblue;">LINKS</a>
+                <a href="product.html">PRODUCTS</a>
+            </div>
+            <hr>
+        </nav>
+        <div class="links">
+            <div class="box">
+                <a href="https://arihantstarled.com/" target="_blank"><i class="fa fa-star-o"
+                        aria-hidden="true"></i></a>
+                <p>Website</p>
+            </div>
+            <div class="box">
+                <a href="https://www.facebook.com/ARIHAANT/?ref=pages_you_manage" target="_blank"><i
+                        class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <p>Facebook</p>
+            </div>
+            <div class="box">
+                <a href="https://www.instagram.com/arihantstar_led/" target="_blank"><i class="fa fa-instagram"
+                        aria-hidden="true"></i></a>
+                <p>Instagram</p>
+            </div>
+            <div class="box">
+                <a href="http://www.arihantled.com/" target="_blank"><i class="fa fa-lightbulb-o"
+                        aria-hidden="true"></i></a>
+                <p>TradeIndia</p>
+            </div>
+            <div class="box">
+                <a href="https://www.amazon.in/s?k=arihantstar&ref=nb_sb_noss_2" target="_blank"><i class="fa fa-amazon"
+                        aria-hidden="true"></i></a>
+                <p>Amazon</p>
+            </div>
+            <div class="box">
+                <a href="https://www.youtube.com/channel/UCfrxU4NQlo8K-7PM5Q4KBiQ/videos" target="_blank"><i
+                        class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                <p>Youtube</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<script>
+    setInterval(updatedate, 1000);
+
+    function updatedate() {
+        clock.innerHTML = new Date();
+    }
+        // let dt = new Date();
+        // console.log(dt);
+</script>
+
+</html>

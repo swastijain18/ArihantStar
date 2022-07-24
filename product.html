@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ArihantStar Products</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--Links to add font styling-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+    
+<body>
+
+    <!--To add clock at this position -->
+    <div id="clock"></div>
+    <div class="container" style="left: 6rem;">
+        <div class="name">
+            <img src="Logo (2).png">
+        </div>
+        
+        <nav class="nav">
+            <div>
+                <a href="index.html">LINKS</a>
+                <a href="product.html" style="color: cornflowerblue;">PRODUCTS</a>
+            </div>
+            <hr>
+        </nav>
+        <div class="head">
+            <p>BEST SELLING PRODUCTS</p>
+        </div>
+
+        <div class="products">
+            <div class="lights">
+                <div class="use">
+                    INDOOR LIGHTS
+                </div>
+                <img src="cob track.jpg">
+                <p>track LIGHT</p>
+                <img src="slim sq panel.png">
+                <img src="backlit panel.png">
+                <img src="cieling panel.jpg">
+                <p>PANEL LIGHT</p>
+                <img src="circle down light.png">
+                <p>DOWN LIGHT</p>
+                <img src="spot.jpeg">
+                <img src="cob.jpg">
+                <p>COB LIGHTS</p>
+
+            </div>
+
+            <div class="lights">
+                <div class="use">
+                    OUTDOOR LIGHTS
+                </div>
+                <img src="flood.jpg">
+                <p>FLOOD LIGHT</p>
+                <img src="street light.jpg">
+                <p>STREET LIGHT</p>
+                <img src="foot.jpg">
+                <p>FOOT/STAIR LIGHT</p>
+            </div>
+
+            <div class="lights">
+                <div class="use">
+                    DECORATIVE LIGHTS
+                </div>
+                <img src="strip.jpg">
+                <p>STRIP LIGHT</p>
+                <img src="hanging profile.jpg">
+                <p>HANGING LIGHT</p>
+                <img src="designer.jpg">
+                <p>DESIGNER LIGHT</p>
+                <img src="spot light.jpg">
+                <p>LINEAR SPOT LIGHT</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    setInterval(updatedate, 1000);
+
+    function updatedate() {
+        clock.innerHTML = new Date();
+    }
+    let dt = new Date();
+    console.log(dt);
+</script>
+
+</html>
